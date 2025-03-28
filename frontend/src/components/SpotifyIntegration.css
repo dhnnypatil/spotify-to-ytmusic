@@ -1,0 +1,97 @@
+.spotify-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.spotify-container h2 {
+  color: #1DB954;
+  margin-bottom: 2rem;
+}
+
+.auth-section {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.spotify-button {
+  background-color: #1DB954;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.playlists-section {
+  margin-top: 2rem;
+}
+
+.playlists-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.playlist-item {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: #222;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.playlist-item:hover {
+  background-color: #333;
+}
+
+.playlist-item.selected {
+  background-color: rgba(29, 185, 84, 0.2);
+  border: 1px solid #1DB954;
+}
+
+.playlist-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 4px;
+  margin-right: 1rem;
+}
+
+.playlist-info {
+  flex: 1;
+}
+
+.playlist-info h4 {
+  margin: 0 0 0.5rem 0;
+  color: #fff;
+}
+
+.playlist-info p {
+  margin: 0;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+.playlist-checkbox {
+  width: 24px;
+  height: 24px;
+  color: #1DB954;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.continue-button {
+  background-color: #1DB954;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-weight: bold;
+}

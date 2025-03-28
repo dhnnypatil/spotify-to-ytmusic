@@ -1,0 +1,59 @@
+.ytmusic-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.ytmusic-container h2 {
+  color: #FF0000;
+  margin-bottom: 2rem;
+}
+
+.selected-playlists {
+  background-color: #222;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.playlist-summary {
+  list-style-type: none;
+  padding: 0;
+}
+
+.playlist-summary li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  background-color: #333;
+  border-radius: 4px;
+}
+
+.playlist-thumb {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  margin-right: 1rem;
+}
+
+.auth-section, .transfer-section {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.ytmusic-button {
+  background-color: #FF0000;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.transfer-button {
+  background-color: #FF0000;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-weight: bold;
+}
